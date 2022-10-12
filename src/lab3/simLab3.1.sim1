@@ -1,0 +1,121 @@
+<circuit version="1.0.0" rev="1130" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Subcircuit" CircId="Uno-2" mainComp="false" Show_id="true" Show_Val="false" Pos="848,472" rotation="0" hflip="1" vflip="1" label="Uno-2" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps itemtype="MCU" CircId="2_mega328-109" mainComp="true" Show_id="false" Show_Val="false" Pos="20,20" rotation="0" hflip="1" vflip="1" label="2_mega328-109" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="lab3.ino.standard.hex" Auto_Load="false" Rst_enabled="true" Ext_Osc="true" Wdt_enabled="false" />
+</item>
+
+<item itemtype="Resistor" CircId="Resistor-4" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="976,448" rotation="0" hflip="1" vflip="1" label="Resistor-4" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="1000 Ω" />
+
+<item itemtype="Voltimeter" CircId="Voltimeter-9" mainComp="false" Show_id="false" Show_Val="false" Pos="1176,368" rotation="0" hflip="1" vflip="1" label="Voltimeter-9" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" SwitchPins="false" />
+
+<item itemtype="Capacitor" CircId="Capacitor-16" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="1072,448" rotation="0" hflip="1" vflip="1" label="Capacitor-16" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Capacitance="10 µF" Resistance="1e-06 Ω" InitVolt="0 V" AutoStep="0 _Steps" />
+
+<item itemtype="Pcd8544" CircId="Pcd8544-32" mainComp="false" Show_id="true" Show_Val="false" Pos="776,424" rotation="0" hflip="1" vflip="1" label="Pcd8544-32" idLabPos="-32,-66" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Potentiometer" CircId="Potentiometer-38" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="924,364" rotation="0" hflip="1" vflip="1" label="Potentiometer-38" idLabPos="-16,-40" labelrot="0" valLabPos="15,-20" valLabRot="0" Resistance="1000 Ω" Value_Ohm="961 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-40" mainComp="false" Show_id="false" Show_Val="false" Pos="1032,560" rotation="0" hflip="-1" vflip="1" label="Tunnel-40" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="GND" Rotated="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-42" mainComp="false" Show_id="false" Show_Val="false" Pos="1032,568" rotation="0" hflip="-1" vflip="1" label="Tunnel-42" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Vcc" Rotated="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-44" mainComp="false" Show_id="false" Show_Val="false" Pos="960,364" rotation="0" hflip="-1" vflip="1" label="Tunnel-44" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Vcc" Rotated="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-53" mainComp="false" Show_id="false" Show_Val="false" Pos="888,380" rotation="0" hflip="-1" vflip="1" label="Tunnel-53" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="GND" Rotated="false" />
+
+<item itemtype="Dht22" CircId="Dht22-55" mainComp="false" Show_id="false" Show_Val="false" Pos="784,588" rotation="0" hflip="1" vflip="1" label="Dht22-55" idLabPos="-40,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" DHT22="DHT22" TempInc="0.5 °C" HumiInc="5 _%" />
+
+<item itemtype="Ground" CircId="Ground-74" mainComp="false" Show_id="false" Show_Val="false" Pos="2264,1176" rotation="0" hflip="1" vflip="1" label="Ground-74" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Thermistor" CircId="Thermistor-75" mainComp="false" Show_id="false" Show_Val="false" Pos="2324,1192" rotation="270" hflip="1" vflip="1" label="Thermistor-75" idLabPos="-16,-24" labelrot="0" valLabPos="-16,30" valLabRot="0" Temp="117.8 ºC" Min_Temp="0 ºC" Max_Temp="200 ºC" Dial_Step="0 ºC" B="3455" R25="10000 Ω" />
+
+<item itemtype="Voltimeter" CircId="Voltimeter-76" mainComp="false" Show_id="false" Show_Val="false" Pos="2356,1076" rotation="0" hflip="1" vflip="1" label="Voltimeter-76" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" SwitchPins="false" />
+
+<item itemtype="Voltimeter" CircId="Voltimeter-77" mainComp="false" Show_id="false" Show_Val="false" Pos="2296,1028" rotation="0" hflip="1" vflip="1" label="Voltimeter-77" idLabPos="-24,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" SwitchPins="false" />
+
+<item itemtype="Ground" CircId="Ground-81" mainComp="false" Show_id="false" Show_Val="false" Pos="2324,1232" rotation="0" hflip="1" vflip="1" label="Ground-81" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Capacitor" CircId="Capacitor-83" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="2192,1108" rotation="0" hflip="1" vflip="1" label="Capacitor-83" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Capacitance="10 µF" Resistance="1e-06 Ω" InitVolt="0 V" AutoStep="0 _Steps" />
+
+<item itemtype="Resistor" CircId="Resistor-84" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="2324,1136" rotation="90" hflip="1" vflip="1" label="Resistor-84" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="10 kΩ" />
+
+<item itemtype="Tunnel" CircId="Tunnel-86" mainComp="false" Show_id="false" Show_Val="false" Pos="2184,1188" rotation="0" hflip="-1" vflip="1" label="Tunnel-86" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="GND" Rotated="false" />
+
+<item itemtype="Resistor" CircId="Resistor-87" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="2264,1132" rotation="90" hflip="1" vflip="1" label="Resistor-87" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="1000 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-90" mainComp="false" Show_id="false" Show_Val="false" Pos="2160,1172" rotation="0" hflip="-1" vflip="1" label="Tunnel-90" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Vcc" Rotated="false" />
+
+<item itemtype="Node" CircId="Node-20" mainComp="false" Pos="1024,448" />
+
+<item itemtype="Node" CircId="Node-23" mainComp="false" Pos="1088,552" />
+
+<item itemtype="Node" CircId="Node-79" mainComp="false" Pos="2264,1108" />
+
+<item itemtype="Node" CircId="Node-80" mainComp="false" Pos="2324,1212" />
+
+<item itemtype="Node" CircId="Node-82" mainComp="false" Pos="2208,1108" />
+
+<item itemtype="Node" CircId="Node-88" mainComp="false" Pos="2324,1172" />
+
+<item itemtype="Connector" uid="connector-56" startpinid="Capacitor-16-rPin" endpinid="Node-23-0" pointList="1088,448,1088,552" />
+
+<item itemtype="Connector" uid="connector-57" startpinid="Voltimeter-9-lPin" endpinid="Node-20-1" pointList="1168,384,1024,384,1024,448" />
+
+<item itemtype="Connector" uid="connector-58" startpinid="Node-20-2" endpinid="Capacitor-16-lPin" pointList="1024,448,1056,448" />
+
+<item itemtype="Connector" uid="connector-59" startpinid="Voltimeter-9-rPin" endpinid="Node-23-1" pointList="1184,384,1184,552,1088,552" />
+
+<item itemtype="Connector" uid="connector-60" startpinid="Node-23-2" endpinid="Uno-2-GND0" pointList="1088,552,1000,552" />
+
+<item itemtype="Connector" uid="connector-61" startpinid="Uno-2-10" endpinid="Resistor-4-lPin" pointList="856,576,960,576,960,448" />
+
+<item itemtype="Connector" uid="connector-62" startpinid="Resistor-4-rPin" endpinid="Node-20-0" pointList="992,448,1024,448" />
+
+<item itemtype="Connector" uid="connector-63" startpinid="Pcd8544-32-PinScl" endpinid="Uno-2-7" pointList="808,464,808,544,856,544" />
+
+<item itemtype="Connector" uid="connector-64" startpinid="Pcd8544-32-PinSi" endpinid="Uno-2-6" pointList="792,464,792,536,856,536" />
+
+<item itemtype="Connector" uid="connector-65" startpinid="Pcd8544-32-PinDc" endpinid="Uno-2-5" pointList="776,464,776,528,856,528" />
+
+<item itemtype="Connector" uid="connector-66" startpinid="Pcd8544-32-PinCs" endpinid="Uno-2-4" pointList="760,464,760,520,856,520" />
+
+<item itemtype="Connector" uid="connector-67" startpinid="Pcd8544-32-PinRst" endpinid="Uno-2-3" pointList="744,464,744,512,856,512" />
+
+<item itemtype="Connector" uid="connector-68" startpinid="Potentiometer-38-PinM" endpinid="Uno-2-A2" pointList="924,380,924,512,1000,512" />
+
+<item itemtype="Connector" uid="connector-69" startpinid="Tunnel-40-pin" endpinid="Uno-2-GND1" pointList="1032,560,1000,560" />
+
+<item itemtype="Connector" uid="connector-70" startpinid="Uno-2-5V0" endpinid="Tunnel-42-pin" pointList="1000,568,1032,568" />
+
+<item itemtype="Connector" uid="connector-71" startpinid="Potentiometer-38-PinB" endpinid="Tunnel-44-pin" pointList="940,364,960,364" />
+
+<item itemtype="Connector" uid="connector-72" startpinid="Tunnel-53-pin" endpinid="Potentiometer-38-PinA" pointList="888,380,888,364,908,364" />
+
+<item itemtype="Connector" uid="connector-73" startpinid="Dht22-55-inPin" endpinid="Uno-2-11" pointList="748,584,856,584" />
+
+<item itemtype="Connector" uid="Connector-92" startpinid="Node-80-2" endpinid="Ground-81-Gnd" pointList="2324,1212,2324,1216" />
+
+<item itemtype="Connector" uid="Connector-94" startpinid="Capacitor-83-rPin" endpinid="Node-82-0" pointList="2208,1108,2208,1108" />
+
+<item itemtype="Connector" uid="Connector-97" startpinid="Thermistor-75-rPin" endpinid="Node-88-1" pointList="2324,1176,2324,1172" />
+
+<item itemtype="Connector" uid="Connector-100" startpinid="Node-79-1" endpinid="Resistor-84-lPin" pointList="2264,1108,2324,1108,2324,1120" />
+
+<item itemtype="Connector" uid="Connector-102" startpinid="Resistor-87-rPin" endpinid="Ground-74-Gnd" pointList="2264,1148,2264,1160" />
+
+<item itemtype="Connector" uid="Connector-103" startpinid="Voltimeter-76-rPin" endpinid="Node-80-0" pointList="2364,1092,2364,1212,2324,1212" />
+
+<item itemtype="Connector" uid="Connector-105" startpinid="Resistor-87-lPin" endpinid="Node-79-0" pointList="2264,1116,2264,1108" />
+
+<item itemtype="Connector" uid="Connector-108" startpinid="Voltimeter-76-lPin" endpinid="Node-88-0" pointList="2348,1092,2348,1172,2324,1172" />
+
+<item itemtype="Connector" uid="Connector-109" startpinid="Node-80-1" endpinid="Thermistor-75-lPin" pointList="2324,1212,2324,1208" />
+
+<item itemtype="Connector" uid="Connector-111" startpinid="Node-79-2" endpinid="Node-82-1" pointList="2264,1108,2208,1108" />
+
+<item itemtype="Connector" uid="Connector-96" startpinid="Voltimeter-77-lPin" endpinid="Capacitor-83-lPin" pointList="2288,1044,2144,1044,2144,1108,2176,1108" />
+
+<item itemtype="Connector" uid="Connector-99" startpinid="Node-88-2" endpinid="Resistor-84-rPin" pointList="2324,1172,2324,1152" />
+
+<item itemtype="Connector" uid="Connector-104" startpinid="Node-82-2" endpinid="Voltimeter-77-rPin" pointList="2208,1108,2208,1212,2304,1212,2304,1044" />
+
+</circuit>
